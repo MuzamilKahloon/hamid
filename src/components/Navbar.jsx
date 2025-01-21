@@ -15,10 +15,10 @@ const Navbar = () => {
       <div className="container relative px-4 mx-auto text-sm">
         <div className="flex items-center justify-between">
           {/* Logo Section */}
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img className="w-10 h-10 mr-2 rounded-full" src={logo} alt="Logo" />
             <span className="text-xl tracking-tight text-white">sarcasm</span>
-          </div>
+          </Link>
 
           {/* Login/Sign Up Section */}
           <div className="hidden lg:flex items-center space-x-4">
